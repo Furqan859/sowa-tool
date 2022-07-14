@@ -1,0 +1,49 @@
+.new-sowa-tool{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+        }
+
+
+.img-reso{
+    height: 270px;
+    width: 500px;
+}
+
+
+.tool-img-one{
+    height: 500px;
+    width: 500px;
+   
+ 
+    
+
+}
+
+
+.tool-img-two{
+   
+    height: 500px;
+    width: 500px;
+   
+    
+    
+   
+}
+
+.color-div{
+    color: #428bca;
+}
+
+.button-style-newsowa{
+    background-color: #f4ae1a;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}

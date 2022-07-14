@@ -1,0 +1,303 @@
+*body{
+    margin: 0;
+    padding: 0;
+}
+
+.first-header{
+    
+    background-color:#251f1f;
+    height: 100px;
+
+}
+.main-div{
+    
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+    
+    
+
+}
+
+
+
+.img-responsive{
+    height:50px;
+    width: 150px;
+    cursor: pointer;
+}
+.logo{
+    display:flex;
+    margin-left: 80px;
+    align-self: center;
+    margin-top: 20px;
+}
+.color-white-1{
+   margin-top: 30px;
+    color:white;
+    margin-left: 10px;
+  
+}
+
+.icons{
+    position: relative;
+    margin-left: -10px;
+    color:white;
+    
+    
+}
+
+.icons-div{
+    display:flex;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+
+.input{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 38px;
+    line-height: 38px;
+    width: 200px;
+    padding-left: 14px;
+}
+
+#App {
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+#page-wrap {
+  text-align: center;
+  overflow: auto;
+}
+
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: white;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+.bm-burger-bars {
+  background: #373a47;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.color-white{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+    text-decoration: none;
+}
+.color-white-style{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.contact-details{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #f4ae1a;
+    margin-top: -20px;
+   
+}
+
+.space{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.inputContainer span {
+    position: absolute;
+ }
+ .inputContainer {
+    width: 100%;
+    margin-bottom: 10px;
+    
+ }
+
+ .icon-search{
+    cursor: pointer;
+ }
+ .icon {
+    padding: 13px;
+    color: rgb(49, 0, 128);
+    width: 70px;
+    text-align: left;
+    margin-left: 160px;
+    cursor: pointer;
+ }
+ .Field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    height: 20px;
+    line-height: 38px;
+    width: 200px;
+    padding-left: 14px;
+  
+}
+
+
+.secound-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f4ae1a;
+    font: size 8px;
+}
+.ul-li-style-none{
+  text-decoration: none;
+  text-underline-offset: none;
+  color: black;
+}
+.ul-li-style-none :hover{
+  color: #2a6496;
+}
+
+li :hover {
+  color: #2a6496;
+}
+.secound-header-div{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+   
+}
+
+.order{
+    margin-right: 20px;
+}
+.secound-header-div li{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.secound-header-shoap-by-brand{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 5px;
+  margin-top: 0px;
+}
+
+
+.dropbtn {
+  background-color: #f4ae1a;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.dropbtn:hover{
+  columns: #428bca;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  
+  display: inline-block;
+  
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #f4ae1a;}
+
+
+.color-ho-set:hover{
+  columns: #428bca;
+}
+
+
+ 
+  
+ 
+  
+  
+
+  
+  
+ 

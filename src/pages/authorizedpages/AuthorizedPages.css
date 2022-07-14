@@ -1,0 +1,39 @@
+.authorized-distributer{
+    list-style-type: none;
+    height: 300px;
+    float: none;
+    padding: 0;
+    display: table;
+    margin: 0 auto;
+
+
+}
+
+.authorized-li{
+    width: 250px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    padding: 20px 20px;
+}
+.nameauthorized{
+   max-width: 1500px;
+   margin-right: auto;
+}
+
+.nameauthorized h1 {
+    text-transform: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Helvetica Neue',sans-serif;
+    font-weight: bold;
+}
+
+
+.img-deco-authorized{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    outline: 0;
+}

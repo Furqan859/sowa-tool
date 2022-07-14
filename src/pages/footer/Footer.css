@@ -1,0 +1,118 @@
+.main-div-footer{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-self: center;
+padding: 15px 0 15px;
+    background-color: #251f1f;
+    height: 66px;
+}
+
+.h4-style{
+    font-weight: bold;
+     color: #f4ae1a;
+     font-size: 30px;
+}
+.h5-style{
+   align-items: center;
+   align-self: center;
+   margin-left: 10px;
+     color: white;
+    
+}
+
+.time-div{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-content: center;
+}
+
+.icons-div-style{
+   
+    position: relative;
+    display: inline-block;
+   top: 0;
+    width: 4rem;
+    height: 4rem;
+    color: #428bca;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    right: 30px;
+    bottom:20px;
+    align-items: center;
+    justify-content: center;
+    line-height: 45px;
+    border: 2px solid #ebebeb;
+    border-radius: 3px;
+   
+   
+}
+
+
+.footer-links-main-div{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px 0 20px;
+    background: #f4ae1a;
+    color: #222222;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.li{
+    display: flex;
+    margin-bottom: 10px;
+    line-height: 25px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black
+}
+
+.main-content-details-link-li{
+    
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.find-distributer{
+    cursor: pointer;
+    font-family: 'Helvetica Neue',sans-serif;
+    color: #428bca;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.social-footer{
+    text-transform: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Helvetica Neue',sans-serif;
+    font-weight: bold;
+    line-height: 1.1;
+    font-size: 18px;
+    color: #000;
+    margin-left: 40px;
+
+}
+
+.social-images{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    outline: 0;
+    border: 0;
+    width: 40px;
+    aspect-ratio: auto 40 / 40;
+    margin-left: 0;
+}
+
+.social-flex{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+}

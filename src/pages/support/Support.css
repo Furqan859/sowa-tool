@@ -1,0 +1,140 @@
+.wrapper{
+  padding: 0;
+  clear: both;
+  min-height: 600px;
+  font-family: 'Helvetica Neue',sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #454545;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.support-text-div{
+    display: flex;
+
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    
+  }
+  ul.breadcrumb li {
+    display: inline;
+   
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "\00a0";
+  }
+  ul.breadcrumb li Link {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+  .breadcrumb{
+    color: #000;
+    font-size: 13px;
+    vertical-align: inherit;
+    margin:10px;
+
+  }
+
+  .breadcrumb-1{
+    font-size: 12px;
+  }
+
+  .breadcrumb-div{
+    display: flex;
+    flex-direction: row;
+   
+   
+    
+ 
+  }
+
+
+.main-customer-list{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+  .main-Support-div{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+   width: 25%;
+ 
+  }
+
+  .main-Support-div > ul {
+    list-style: none outside none;
+    padding-left: 0;
+    box-sizing :border-box; }
+
+  .main-Support-div > li {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+
+  .support-text-div{
+    display: flex;
+    flex:1 0 auto;
+    justify-content: space-between;
+    width: 75%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+
+    
+  }
+  .main-Support-div ul li {
+    color: #2a6496;
+    background: #fff;
+    padding: 5px;
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+  }
+
+
+  .support-col-1{
+    
+    background: #fff;
+    padding: 5px;
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .support-col-2{
+   
+    background: #fff;
+    padding: 5px;
+    width: 100%;
+  }
+
+  .support-col-3{
+    
+    background: #fff;
+    padding: 5px;
+    width: 100%;
+  }
