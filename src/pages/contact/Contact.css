@@ -1,4 +1,5 @@
 .wrapper{
+  
     padding: 0;
     clear: both;
     min-height: 600px;
@@ -41,11 +42,13 @@
     }
   
     .breadcrumb{
-      color: #000;
-      font-size: 16px;
-      vertical-align: inherit;
-      margin:10px;
-  
+      clear: both;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding: 0 10px 10px 10px;
+    margin-right: -15px;
+    margin-left: -15px;
     }
   
     .breadcrumb-1-1{
@@ -62,16 +65,18 @@
       flex-direction: row;
      font-size: 18px;
      
-      
-   
     }
 
+    .contact-div-list{
+
+    }
  
   
   
   .main-customer-list{
   display: flex;
   flex-direction: row;
+  justify-content:space-between;
   
   }
   
@@ -79,7 +84,7 @@
       position: relative;
       min-height: 1px;
       padding-right: 15px;
-      padding-left: 15px;
+      padding-left: 95px;
      width: 25%;
    
     }

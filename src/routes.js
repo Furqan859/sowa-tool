@@ -11,7 +11,7 @@ import Orderhistory from './pages/orderhistory/Orderhistory';
 import ShopAllProducts from './pages/shopallproducts/ShopAllProducts';
 import ForgotPassword from './pages/forgotpassword/ForgotPassword';
 import Support from './pages/support/Support';
-import Contact from './pages/contact/Contact'
+import Contact from './pages/contact/Contact';
 
 
 

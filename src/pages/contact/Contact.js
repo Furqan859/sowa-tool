@@ -20,7 +20,7 @@ const Support = () => {
       <li className="breadcrumb-1-1">Contact Us</li>
     </ul>
   </div>
-  <div>
+  <div className='contact-div-list'>
     
     <div className="main-customer-list">
     <div className="main-Support-div">

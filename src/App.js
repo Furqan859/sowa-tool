@@ -11,9 +11,7 @@ function App() {
   <React.Fragment>
   <BrowserRouter>
     <Header/>
- 
   <Router/>
- 
    <Footer/>
    </BrowserRouter>
    </React.Fragment>
